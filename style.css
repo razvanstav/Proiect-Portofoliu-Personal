@@ -46,7 +46,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #54da54;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -78,6 +78,16 @@ nav img{
  border: 2px solid #287259;
  color: rgb(0, 0, 0);
 }
+.contact-input-textarea{
+    border-radius: 10px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    width: 300px;
+    height: 130px;
+    font-size: large;
+    border: 2px solid #287259;
+    color: rgb(0, 0, 0);
+   }
+
 .contact-input:hover{
     border: 3px solid rgb(11, 226, 83);
 }
@@ -99,7 +109,34 @@ h1 {
     font-size: large;
     border: 2px solid #30a0eb;
     color: rgb(0, 0, 0);
+    transition: border-color 1s;
 }
-.input-cnp:hover{
-    border: 5px solid rgb(45, 135, 238);
+
+.input-cnp:focus {
+    border: 5px solid;
+    border-color: #54da54;
+  }
+
+.input-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-button {
+   height: 2rem;
+   width: 6rem;
+   right: 170px;
+   border: 2px solid #30a0eb;
+   border-radius: 11px;
+}
+.search-button:hover{
+    border: 2px solid #54da54;
+    transition: 1s;
+}
+.material-symbols-outlined{
+    padding-top: 0.15rem;
+}
+.material-symbols-outlined:hover{
+    color: #54da54;
+    transition: 1s;
 }

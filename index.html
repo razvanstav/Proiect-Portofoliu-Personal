@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <section class="header">
@@ -26,8 +27,13 @@
         </nav>
         <div  class="contact-div">
             <h1>Verifică arenda și stabilește ce produse vrei să ridici:</h1> <br>
+        </div> 
+<div class="input-search">
             <input class="input-cnp" type="text" placeholder="Introdu CNP-ul">
-               </div> 
+        <button class="search-button"><span class="material-symbols-outlined">
+            search
+            </span> </button>
+        </div>
     </section>
 <div id="div-form" class="div-form">
     <form class="container-form">
@@ -35,6 +41,7 @@
       <input class="contact-input" type="text"><br>
       <label for="email">Email-ul tau</label>
       <input class="contact-input" type="email"><br>
+      <textarea class="contact-input-textarea" style="vertical-align:text-top" placeholder="Mesajul tau"></textarea>
       <button id="form-button" type="submit">Apasa aici</button>
       <button id="form-button" type="reset">Reseteaza</button> 
     </form>
